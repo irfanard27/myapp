@@ -1,0 +1,152 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+    padding-top: 3.2rem;
+  
+    font-size: 13px;
+    min-height: 500px;
+    color: #464a4e;
+  }
+  
+  /*
+   * Typography
+   */
+  
+  h1 {
+    padding-bottom: 9px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+
+  /*
+   * navbar
+   */
+
+   .navbar-border{
+        border-bottom: 1px solid #eee;
+   }
+
+  /*
+   * Sidebar
+   */
+  
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+    font-size:13px; 
+    
+  }
+
+  .icon-spr{
+      margin-right:10px; 
+  }
+  
+  .sidebar .nav {
+    margin-bottom: 20px;
+    
+  }
+  
+  .sidebar .nav-item {
+    width: 100%;
+  }
+  
+  .sidebar .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  
+  .sidebar .nav-link {
+    border-radius: 0;
+    color: #868e96;
+  }
+
+  .sidebar .nav-link:hover {
+    border-radius: 0;
+    color: #555c61;
+    background-color: #fafbfc;
+  }
+  
+  /*
+   * Dashboard
+   */
+  
+  /* Placeholders */
+  .placeholders {
+    padding-bottom: 3rem;
+  }
+  
+  .placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  /* Placeholders */
+  .btn, .card{
+      font-size: 13px;
+      font-family:'Roboto';
+  }
+
+
+
+  .alert{
+      color: #ffffff;
+  }
+
+  .alert-primary{
+
+  }
+
+  .no-radius{
+      border-radius:0px;
+      border: 0px 
+  }
+
+  /* modern bg colors */
+  .bg-mod-blue{
+    background-color: #07c0df;
+  }
+
+  .bg-mod-red{
+    background-color: #f44645;
+  }
+
+  .bg-mod-yellow{
+    background-color: #f6ec32;
+  }
+
+  .bg-mod-green{
+    background-color: #4cad4c;
+  }
+
+  .bg-mod-purple{
+    background-color: #651FFF;
+     
+  }
+
+  /* modern color */
+
+  .mod-blue{
+    color: #07c0df;
+  }
+
+  .mod-green{
+    color: #4cad4c;
+  }
+
+  .mod-purple{
+    color: #651FFF;
+  }
+
+  .mod-red{
+      color: #f44645;
+  }

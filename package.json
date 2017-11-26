@@ -1,5 +1,8 @@
 {
   "name": "myapp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }

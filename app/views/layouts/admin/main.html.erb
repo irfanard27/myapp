@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myapp</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render "layouts/admin/header" %>
+
+    <div class="container-fluid bg-light"  style="min-height:700px">
+      <div class="row">
+        <%= render "layouts/admin/sidebar" %>
+        <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+          <%= yield %>
+        </main>
+      </div>
+    </div>
+    
+  </body>
+  
+</html>
